@@ -1,0 +1,54 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+
+/* Header Style */
+#main_header {
+    background-color: rgb(50,50,50);
+    width: 100%;
+    font-size:larger;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.header_icon {
+    display: inline-block;
+    vertical-align: middle;
+    
+} 
+
+.header_title {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Navigation Style */
+
+#main_nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+
+}
+
+.nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.nav_bar li{
+    display: inline-block;
+
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: rgb(50,50,50);
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+
+}
