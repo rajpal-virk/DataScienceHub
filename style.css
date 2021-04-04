@@ -76,9 +76,20 @@
 }
 
 .body_text h1{
+    padding-top: .5em;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+}
+
+.body_text h2{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.software {
+    padding: 0px 100px;
 }
 
 #about {
@@ -99,6 +110,12 @@
 }
 .profile_photo {
     padding-right: 100px;
+    margin-bottom:2em;
+
+}
+
+.profile_text {
+    vertical-align: middle;
 
 }
 
@@ -107,6 +124,43 @@
       flex-direction: column;
     }
 }
+
+.software_logo {
+    padding: 0px 100px;
+    margin-bottom: 2em;
+}
+
+.row {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.row-end {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border-bottom: 30px solid rgb(194, 194, 194);
+
+}
+.column {
+    border-top: 30px solid rgb(194, 194, 194);
+    border-left: 30px solid rgb(194, 194, 194);
+    padding: 10px 10px;
+ 
+
+}
+
+.column-row {
+    border-top: 30px solid rgb(194, 194, 194);
+    border-left: 30px solid rgb(194, 194, 194);
+    border-right: 30px solid rgb(194, 194, 194);
+    padding: 10px 10px;
+
+}
+
+
 /* Horizontal Rule Style */
 hr{
     border-color:tomato;
