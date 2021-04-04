@@ -137,29 +137,17 @@
 
 }
 
-.row-end {
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    border-bottom: 30px solid rgb(194, 194, 194);
 
-}
 .column {
-    border-top: 30px solid rgb(194, 194, 194);
-    border-left: 30px solid rgb(194, 194, 194);
+    border: 10px solid rgb(194, 194, 194);
     padding: 10px 10px;
- 
-
 }
 
-.column-row {
-    border-top: 30px solid rgb(194, 194, 194);
-    border-left: 30px solid rgb(194, 194, 194);
-    border-right: 30px solid rgb(194, 194, 194);
-    padding: 10px 10px;
-
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
 }
-
 
 /* Horizontal Rule Style */
 hr{
