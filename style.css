@@ -29,6 +29,8 @@
     vertical-align: middle;
 }
 
+
+
 /* Navigation Style */
 
 #main_nav {
@@ -125,6 +127,7 @@
     }
 }
 
+/* Software Skills Style */
 .software_logo {
     padding: 0px 100px;
     margin-bottom: 2em;
@@ -149,6 +152,41 @@
     }
 }
 
+/* Contact Me Style */
+
+#contact {
+    line-height: 1.8em;
+    font-size: 16px;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px 100px;
+    
+}
+
+.contact_icons {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+
+.contact_img {
+    vertical-align: middle;
+    padding-right: 5px;
+    align-items:center;
+}
+
+.contact_text {
+    align-items:center;
+}
+
+.contact_icons a{
+    text-decoration: none;
+    color: rgb(50,50,50);
+}
+
 /* Horizontal Rule Style */
 hr{
     border-color:tomato;
@@ -160,13 +198,29 @@ hr{
 }
 
 
+.main_blog {
+    padding: 0px 100px;
+    background-image:url(images/forest_bridge.jpg);
+    background-position: center;
+    background-size: cover;
+    height:500px;
+}
+
+.main_blog p{
+    text-align:center;
+    color: white;
+    font-size: 40px;
+    position:relative;
+    top:50%;
+}
+
 
 /* Footer Style */
 #main_footer {
     background-color: rgb(50,50,50);
     width: 100%;
     position: relative;
-    top:8em;
+    top:2em;
     
 }
 
