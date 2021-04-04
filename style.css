@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Tahoma, sans-serif;
+ 
 
 }
 
@@ -7,10 +8,13 @@
 #main_header {
     background-color: rgb(50,50,50);
     width: 100%;
-    font-size:larger;
+    font-size:24px;
     text-align: center;
+    font-weight: bold;
     margin: auto;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 .header_icon {
@@ -31,6 +35,7 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 100%;
+    font-size: 18px;
 
 }
 
@@ -48,7 +53,87 @@
 .nav_bar a{
     text-decoration: none;
     color: rgb(50,50,50);
+    font-weight: bold;
     padding-inline-end: 10px;
     padding-inline-start: 10px;
 
+}
+
+.nav_bar a:hover{
+    color:tomato;
+
+}
+
+
+
+/* Body Style */
+.main_content {
+    padding: 0px 100px;
+    text-align: justify;
+    line-height: 1.8em;
+    font-size: 16px;
+
+}
+
+.body_text h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#about {
+ 
+    text-align: justify;
+    line-height: 1.8em;
+    font-size: 16px;
+    padding: 0px 100px;
+    position: relative;
+    top: 1em;
+    bottom: 1em;
+   
+}
+
+.profile {
+    display:flex;
+    flex-direction: row;
+}
+.profile_photo {
+    padding-right: 100px;
+
+}
+
+@media (max-width: 800px) {
+    .profile {
+      flex-direction: column;
+    }
+}
+/* Horizontal Rule Style */
+hr{
+    border-color:tomato;
+    margin: 0px 100px;
+    border-top: 2px solid tomato;
+    position: relative;
+    top:1em;
+
+}
+
+
+
+/* Footer Style */
+#main_footer {
+    background-color: rgb(50,50,50);
+    width: 100%;
+    position: relative;
+    top:8em;
+    
+}
+
+.footer_text {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 3px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    position: relative;
 }
